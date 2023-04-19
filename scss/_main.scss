@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(177, 177, 177);
+  font-family: Oswald, sans-serif;
+  overflow: hidden;
+}
+
+canvas#canvas {
+  position: absolute;
+  top: 50px;
+  cursor: crosshair;
+  z-index: 10;
+}
+
+.mobile-message {
+  display: none;
+}
